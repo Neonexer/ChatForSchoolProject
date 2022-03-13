@@ -13,7 +13,6 @@ public class SplashScreen extends AppCompatActivity {
 
     private FirebaseAuth auth;
     private boolean isLoggedIn;
-    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +22,6 @@ public class SplashScreen extends AppCompatActivity {
 
         auth = FirebaseAuth.getInstance();
         isLoggedIn = auth.getCurrentUser() != null;
-        imageView = findViewById(R.id.imageView);
 
         CountDownTimer timer = new CountDownTimer(1000, 1000) {
 

@@ -6,12 +6,12 @@
         <type value="RUNNING_DEVICE_TARGET" />
         <deviceKey>
           <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\Neone\.android\avd\Pixel_2_API_28.avd" />
+            <type value="SERIAL_NUMBER" />
+            <value value="adb-KFTWPJFIBUD655EU-srKd1N._adb-tls-connect._tcp" />
           </Key>
         </deviceKey>
       </Target>
     </runningDeviceTargetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2022-03-13T15:53:25.724654Z" />
+    <timeTargetWasSelectedWithDropDown value="2022-03-13T17:44:07.596428800Z" />
   </component>
 </project>
