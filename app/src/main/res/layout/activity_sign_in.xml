@@ -7,12 +7,13 @@
     android:orientation="vertical"
     tools:context=".SignInActivity">
 
-    <ImageView
+    <com.github.siyamed.shapeimageview.CircularImageView
+        android:layout_gravity="center_horizontal"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/ic_baseline_chat_24"
-        android:layout_gravity="center_horizontal"/>
+        android:src="@mipmap/ic_launcher_round"
+        app:siRadius="8dp"/>
 
     <EditText
         android:layout_width="match_parent"
