@@ -6,17 +6,17 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     android:orientation="vertical"
-    android:background="#919191"
+    android:background="#CACACA"
     tools:context=".ChatActivity">
 
     <ListView
         android:id="@+id/messageListView"
-        android:layout_above="@id/sendMessageLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@id/sendMessageLayout"
         android:divider="@android:color/transparent"
         android:transcriptMode="alwaysScroll"
-        tools:listitem="@layout/message_item"/>
+        tools:listitem="@layout/message_item" />
 
     <LinearLayout
         android:id="@+id/sendMessageLayout"
@@ -24,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="7dp">
 
         <ImageButton
@@ -45,6 +46,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/sendMessageButton"
             android:text="Send"
+            android:textColor="@color/black"
+            android:backgroundTint="#CC0AB8"
             android:enabled="false"/>
 
 
